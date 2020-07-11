@@ -1,0 +1,9 @@
+{% extends "home_page.html" %}
+{% block content %}
+<br>
+<ul>
+    <li><a href="{% url 'worldnews' %}"><h3>World_News</h3></a></li>
+    <li><a href="{% url 'worldmovies' %}"><h3>Movie_news</h3></a></li>
+    <li><a href="{% url 'worldbusiness' %}"><h3>Business_news</h3></a></li>
+
+</ul>{% endblock %}
